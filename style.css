@@ -86,10 +86,9 @@ nav img:hover{
 .homepage button{
     background-color:rgba(158, 14, 14, 0.623);
     color: #000000;
-    border: solid 2px #1a4101;
     border-radius: 50%;
     padding:2em ;
-    font-size: 1em;
+    font-size: 1.5em;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
     cursor: pointer;
