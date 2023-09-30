@@ -1,0 +1,95 @@
+html {
+    box-sizing: border-box ; 
+    padding: 0 ;
+    margin: 0 ; 
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: beige;
+}
+
+nav a:first-child {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5rem;
+    
+}
+
+.nav-left {
+    margin-right: 30rem;
+    width: 60%;
+}
+
+nav img {
+    width: 30%;
+}
+
+.nav-right {
+   width: 40%;
+   display: flex;
+   justify-content: flex-end;
+}
+
+.homepage{
+    margin: 0;
+    background-image: url(./resources/olive-oil-bottles-with-copy-space.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10rem;
+    padding-top: 5rem;
+  
+}
+
+.middle-content {
+    background-image: url(./resources/wepik-export-2023092920485710DE.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 80%;
+    padding: 8rem;
+    margin-left: 20rem;
+    overflow: hidden;
+    display: flex;
+    gap: 8rem
+}
+
+.title {
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+
+}
+
+.moroccan-recipes {
+    width: 40%;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 20%;
+    padding: 2rem;
+    background-color: #f0e1c4;
+    margin-top: 2rem;
+}
+
+.albanian-recipes {
+    width: 40%;
+    margin-top: 2rem;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 20%;
+    padding: 2rem;
+    background-color: #f0e1c4;
+}
+
+
+.middle-content div img {
+    width: 40%
+}
+
