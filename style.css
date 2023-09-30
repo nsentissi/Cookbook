@@ -4,42 +4,55 @@ html {
     margin: 0 ; 
 }
 
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background-color: beige;
-}
-
-nav a:first-child {
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 1.5rem;
-    
-}
-
-.nav-left {
-    margin-right: 30rem;
-    width: 60%;
-}
-
-nav img {
-    width: 30%;
-}
-
-.nav-right {
-   width: 40%;
-   display: flex;
-   justify-content: flex-end;
-}
-
-.homepage{
+body {
     margin: 0;
     background-image: url(./resources/olive-oil-bottles-with-copy-space.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+}
+
+.nav-left{
+    margin-left: 30%;
+}
+.nav-middle{
+    margin-right: 20%;
+}
+nav a:first-child {
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    background: -webkit-linear-gradient(hsl(130, 79%, 15%), #044622);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 0.4s ease;
+}
+
+nav img {
+    width: 15%;
+    margin: 0;
+    padding: 0;
+    transition: 0.4s ease;
+    cursor: pointer;
+}
+
+nav img:hover{
+    transform: scale(1.2);
+    filter: drop-shadow(3px 3px 3px #110202);
+  }
+
+.homepage{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -50,7 +63,7 @@ nav img {
 }
 
 .middle-content {
-    background-image: url(./resources/wepik-export-2023092920485710DE.jpeg);
+    background-image: url(./resources/wepik-export-20230929204704tlTy.jpeg);
     background-size: contain;
     background-repeat: no-repeat;
     width: 80%;
@@ -72,7 +85,7 @@ nav img {
     width: 40%;
     text-align: center;
     border: 1px solid black;
-    border-radius: 20%;
+    border-radius: 50%;
     padding: 2rem;
     background-color: #f0e1c4;
     margin-top: 2rem;
@@ -93,3 +106,41 @@ nav img {
     width: 40%
 }
 
+/*morocco recipes page*/
+#slider {
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    margin-top: 10%;
+    
+}
+
+.cookbook-recipes {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;   
+    
+}
+
+.cookbook-recipes h1 {
+    text-align: center;
+    
+}
+
+
+.ingredients {
+    width: 20%;
+}
+
+.recipes {
+    width :70%;
+}
+
+.foodCart {
+    display: flex;
+}
+
+.foodImage {
+    width: 20%;
+    margin: auto;
+}
