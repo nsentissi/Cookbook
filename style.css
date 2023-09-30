@@ -107,26 +107,41 @@ nav img:hover{
 }
 
 /*morocco recipes page*/
-#slider {
-    width: 80%;
-    margin: auto;
-    background-color: white;
-    margin-top: 10%;
-    
-}
-
 .cookbook-recipes {
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;   
-    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30%;
+    padding: 20px;
 }
 
 .cookbook-recipes h1 {
-    text-align: center;
-    
+    display: inline-block;
+    white-space: pre;
+    font-size: 25px;
+    color: #044622;
+    font-weight: bold;
+    line-height: 1.5; 
+    letter-spacing: 0.1em; 
+    font-family: 'Arial', sans-serif; 
+    padding-top: 10%;
+    padding-right: 5%;
 }
 
+
+#slider {
+    width: 80%;
+    background-color: white;
+    background-image: url(resources/m2.jpeg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 15%;
+}
+
+.custom-carousel-control {
+    margin-left: 30%;
+}
 
 .ingredients {
     width: 20%;
@@ -142,5 +157,5 @@ nav img:hover{
 
 .foodImage {
     width: 20%;
-    margin: auto;
+    
 }
