@@ -204,9 +204,7 @@ nav img:hover{
 #slider {
     width: 80%;
     background-color: white;
-    background-image: url(resources/m2.jpeg); 
-    background-size: cover;
-    background-repeat: no-repeat;
+    
     margin-top: 15%;
 }
 
