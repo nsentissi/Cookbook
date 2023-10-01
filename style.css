@@ -93,3 +93,40 @@ nav img {
     width: 40%
 }
 
+#slider {
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    margin-top: 10%;
+    
+}
+
+.cookbook-recipes {
+    background-image: url(./resources/olive-oil-bottles-with-copy-space.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;   
+
+}
+
+.recipes h1 {
+    text-align: center;
+}
+
+
+.ingredients {
+    width: 20%;
+}
+
+.recipes {
+    width :70%;
+}
+
+.foodCart {
+    display: flex;
+}
+
+.foodImage {
+    width: 20%;
+    margin: auto;
+}
