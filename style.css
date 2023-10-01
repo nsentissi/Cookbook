@@ -2,14 +2,13 @@ html {
     box-sizing: border-box ; 
     padding: 0 ;
     margin: 0 ; 
-    
-
 }
 
 body {
     margin: 0;
-    background-image: url(./resources/BACK.jpg);
+    background-image: url(resources/BACK.jpg);
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
 
     }
@@ -23,13 +22,13 @@ nav {
     width: 70%;
     margin-left: 15%;
     margin-top: 2%;
-    background-color: rgba(73, 71, 67, 0.349);
+    background-color: rgba(192, 165, 110, 0.267);
 }
 .nav-right img{
     margin-left: 80%;
 }
 .nav-middle{
-    
+
     transition: 0.4s ease;
     cursor: pointer;
 }
@@ -39,12 +38,8 @@ nav a:first-child {
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
     font-size: 3em;
-    background: -webkit-linear-gradient(hsla(0, 74%, 44%, 0.712), #0c0201);
-    text-shadow: 2px 2px 4px rgba(231, 43, 43, 0.3);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    transition: 0.4s ease;
+    color:#d0a97e ;
+
 }
 
 nav img {
@@ -59,22 +54,17 @@ nav img:hover{
     transform: scale(1.2);
     filter: drop-shadow(3px 3px 3px #110202);
 }
-
-.nav-middle:hover{
-    transform: scale(1.2);
-    filter: drop-shadow(3px 3px 3px #110202);
-}
-
 .homepage{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
     text-align: center;
 }
 .title-homepage {
     margin-bottom: 1%;
-    margin-top: 4%; 
+    color: #d0a97e;
+
 }
 .title-homepage h2 {
     font-size: 40px; 
@@ -86,7 +76,7 @@ nav img:hover{
     font-style: italic; 
 }
 .homepage button{
-    background-color: linear-gradient(to right, rgba(0, 128, 0, 0.452), rgba(0, 0, 0, 0.644));
+    background-color: transparent;
     color: #000000;
     border-radius: 50%;
     padding:2em ;
@@ -95,7 +85,7 @@ nav img:hover{
     font-weight: bold;
     cursor: pointer;
     transition: 0.4s ease;
-    
+
 }
 
 .homepage button:hover{
@@ -109,7 +99,7 @@ nav img:hover{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 2% 15% 5% 15%;
+    margin: 2% 0 5% 0;
  }
 
  .middle-content h3 {
@@ -128,8 +118,8 @@ nav img:hover{
     width: 45%;
     text-align: center;
     border: 5px solid rgb(34, 2, 2);
-    border-radius: 50% 15% 15% 50%;
-     
+    border-radius: 10% 0% 0% 50%;
+     background-color: #d0a87ea1;
     padding: 2rem;
     margin-top: 2rem;
     height: 80%;
@@ -141,7 +131,7 @@ nav img:hover{
 }
 .chef-icon img {
     width: 70%;
-    
+
 }
 .content-left{
     display: flex;
@@ -153,12 +143,12 @@ nav img:hover{
     transform: scale(1.2);
     filter: drop-shadow(3px 3px 3px #110202);
 }
-
 .albanian-recipes {
     width: 45%;
     text-align: center;
     border: 5px solid rgb(14, 13, 13);
-    border-radius: 15% 50% 50% 15%;
+    border-radius: 0% 50% 50% 0%;
+    background-color: #d3b8748f;
     padding: 2rem;
     margin-top: 2rem;
     height: 80%;
@@ -182,7 +172,6 @@ nav img:hover{
     filter: drop-shadow(3px 3px 3px #290909);
 }
 
-
 /*morocco recipes page*/
 .cookbook-recipes {
     display: flex;
@@ -201,17 +190,14 @@ nav img:hover{
     line-height: 1.5; 
     letter-spacing: 0.1em; 
     font-family: 'Arial', sans-serif; 
-   
     padding-right: 5%;
 }
 
 
 #slider {
-    width: 60%;
+    width: 70%;
     background-color: white;
     display: flex;
-    background-size: cover;
-    background-repeat: no-repeat;
     margin-top: 5%;
     padding: 5rem;
     margin-left: 17%;
