@@ -84,7 +84,7 @@ nav img:hover{
     font-style: italic; 
 }
 .homepage button{
-    background-color:rgba(158, 14, 14, 0.623);
+    background-color: linear-gradient(to right, rgba(0, 128, 0, 0.452), rgba(0, 0, 0, 0.644));
     color: #000000;
     border-radius: 50%;
     padding:2em ;
@@ -125,9 +125,9 @@ nav img:hover{
 .moroccan-recipes {
     width: 45%;
     text-align: center;
-    border: 5px solid rgb(6, 19, 8);
-    border-radius: 15%;
-    background-color: rgba(166, 233, 224, 0.3);
+    border: 5px solid rgb(34, 2, 2);
+    border-radius: 50% 15% 15% 50%;
+     
     padding: 2rem;
     margin-top: 2rem;
     height: 80%;
@@ -155,9 +155,8 @@ nav img:hover{
 .albanian-recipes {
     width: 45%;
     text-align: center;
-    border: 5px solid rgb(7, 8, 7);
-    border-radius: 15%;
-    background-color: rgba(214, 173, 61, 0.3);
+    border: 5px solid rgb(14, 13, 13);
+    border-radius: 15% 50% 50% 15%;
     padding: 2rem;
     margin-top: 2rem;
     height: 80%;
@@ -188,7 +187,7 @@ nav img:hover{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin-left: 30%;
+    margin-left: 15%;
     padding: 20px;
 }
 
@@ -213,10 +212,6 @@ nav img:hover{
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: 15%;
-}
-
-.custom-carousel-control {
-    margin-left: 30%;
 }
 
 .ingredients {
