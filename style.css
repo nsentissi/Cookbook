@@ -55,10 +55,13 @@ body{
     font-family:'Neucha' ;
     font-size: 3rem;
     font-weight: bold;
-    color: #f3e8cf;
+    color: #fada90;
+    text-align: center; 
+}
+
+.allTitles{
     background-color: rgba(252, 252, 252, 0.226);
-    border-radius: 15%;
-    
+    border-radius: 20%;
 }
 .homepage{
     display: flex;
@@ -84,13 +87,38 @@ body{
 .underTitle h3{
     font-family:'Neucha' ;
     font-weight: bold;
-    color: #f4f1e2;
-    background-color: rgba(252, 252, 252, 0.226);
-    border-radius: 15%;
+    color: #fcfbf8;
     padding: 5%;
     width: 60ch;
     text-align: center;
 }
+
+  footer .card {
+    background: linear-gradient(to right, #74351d,#8c672c, #74351d);
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    }
+    .blockquote p {
+        font-size: 35px; 
+        font-style: italic;
+        font-family:'Neucha' ;
+        font-weight: bolder;
+    }
+    
+    footer .blockquote-footer { 
+        margin-left: 17%;
+        font-size: 35px;
+        font-family:'Neucha' ;
+        color: #be9c52; 
+        
+    }
+
 /*morocco recipes page*/
 .cookbook-recipes {
     display: flex;
