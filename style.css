@@ -9,6 +9,7 @@ body{
     background-size:cover; 
     background-repeat: no-repeat;
     background-position: center; 
+    background-attachment: fixed;
 }
 .navbar {
     background-color: rgba(0, 0, 0, 0.534);
@@ -159,11 +160,35 @@ body{
 .ingredients {
     width: 40%;
     line-height: 2;
+    text-align: center;
+    border: 0.2px solid black;
+    padding: 1rem;
+    background-color: #ffdfd0;
+
+}
+
+.ingredients h4 {
+    margin-top: -1.1rem;
+    background-color: #804c60 ;
+    padding: 1rem;
+    color: #ffdfd0
 }
 
 .recipes {
     width :90%;
-    margin-left: 15%;
+    margin-left: 10%;
+    text-align: center;
+    border: 0.2px solid black;
+    padding: 1rem;
+    background-color: #ffdfd0;
+    
+}
+
+.recipes h4 {
+    margin-top: -1.1rem;
+    background-color: #804c60;
+    padding: 1rem;
+    color: #ffdfd0
 }
 
 .foodCart {
@@ -173,19 +198,26 @@ body{
 }
 
 .foodImage {
-    width: 40%;
-    
-}
+        width: 40%;
+        height: 40%;
+        border-radius: 50%;
+        
+        
+    }
+
+
  
 .recipe-title {
     display: flex;
     justify-content: space-around;
     margin-bottom: 4rem;
+    
 }
 
 .recipe-title h3 {
     margin-top: 5rem;
     font-size: 3rem;
+    color: #da7133;
 }
 
 .carousel-control-prev-icon {
@@ -197,5 +229,21 @@ body{
 .carousel-control-next-icon {
  background-image: url(./resources/reshot-icon-right-arrow-button-YAB8GEM7SD-c5f61.svg) !important;
  margin-right: 50%;
+ }
+
+ .shareButton {
+    margin-top: 3rem;
+    padding: 0.5rem;
+    background-color: #da7133 ;
+    color: #ffdfd0;
+ }
+
+ .shareButton:hover {
+    background-color: #ffdfd0 ;
+    color: #da7133;
+ }
+
+ .carousel-indicators {
+    background-color: #804c60 ;
  }
  

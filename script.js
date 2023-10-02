@@ -1,5 +1,8 @@
-const shareButton = document.getElementById('shareButton');
-shareButton.addEventListener('click', shareRecipe);
+const shareButtons = document.querySelectorAll('.shareButton');
+
+shareButtons.forEach(button => {
+    button.addEventListener('click', shareRecipe);
+});
 
 
 function shareRecipe () {
