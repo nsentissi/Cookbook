@@ -145,7 +145,6 @@ body{
 
 #slider {
     width: 70%;
-    background-color: white;
     display: flex;
     margin-top: 5%;
     padding: 5rem;
@@ -153,7 +152,7 @@ body{
     font-family: 'Neucha';
     font-size: larger;
     border-radius: 1%;
-    background-color: #f4f1e2;  
+    background-color: #f5f0da;  
 }
 
 .ingredients {
@@ -216,7 +215,7 @@ body{
     padding: 0.5rem;
     background-color:#da7033ce ;
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 1rem;
     color: #630716;
     width: 15%;
 
