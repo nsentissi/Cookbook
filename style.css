@@ -1,132 +1,201 @@
-html {
+html,body {
     box-sizing: border-box ; 
     padding: 0 ;
     margin: 0 ; 
 }
 
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background-color: beige;
+body{
+    background-image: url(resources/19Z_2103.w015.n001.354B.p15.354.jpg);
+    background-size:cover; 
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+.navbar {
+    background-color: rgba(0, 0, 0, 0.534);
+    padding: 10%;    
 }
 
-nav a:first-child {
-    text-decoration: none;
+.navbar-expand-lg .navbar-brand {
+    font-family: 'Neucha';
+    font-size: 45px;
+    font-weight: bolder;
+    padding: 1%;
+    color: #242b02;
+    background-color: #a14e21cc;
+    border-radius: 15%;
+}
+
+
+.nav-item .btn{
+    font-size: 25px;
     font-weight: bold;
-    font-size: 1.5rem;
+    font-family: 'Neucha';
+    border-radius: 20%;
+    background-color: #a14e21cc;
     
 }
 
-.nav-left {
-    margin-right: 30rem;
-    width: 60%;
+.dropdown-menu .dropdown-item {
+    font-size: 25px; 
+    color: rgb(214, 18, 18);
+    font-weight: bold;
+    font-family: 'Neucha';
+    background-color: rgb(224, 150, 52);
+}
+.contentFirst{
+    background-color: rgba(0, 0, 0, 0.452);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-nav img {
-    width: 30%;
+.titleFirst h2{
+    margin-top: 5%;
+    font-family:'Neucha' ;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #fada90;
+    text-align: center; 
 }
 
-.nav-right {
-   width: 40%;
-   display: flex;
-   justify-content: flex-end;
+.allTitles{
+    background-color: rgba(252, 252, 252, 0.226);
+    border-radius: 20%;
 }
-
 .homepage{
-    margin: 0;
-    background-image: url(./resources/olive-oil-bottles-with-copy-space.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    display: flex;
+    gap: 20%;
+    justify-content: space-around;
+    align-items: center;
+    transition: 0.4s ease;
+    cursor: pointer; 
+}
+
+.homepage #chefin{
+    width: 37%;
+}
+.homepage #chef{
+    width: 40%;
+    
+}
+.homepage img:hover{
+    transform: scale(1.2);
+    filter: drop-shadow(3px 3px 3px #c24949);
+}
+
+.underTitle h3{
+    font-family:'Neucha' ;
+    font-weight: bold;
+    color: #fcfbf8;
+    padding: 5%;
+    width: 60ch;
+    text-align: center;
+}
+
+  footer .card {
+    background: linear-gradient(to right, #74351d,#8c672c, #74351d);
+}
+
+.card-body {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-bottom: 10rem;
-    padding-top: 5rem;
-  
-}
+    height: 100%;
+    }
+    .blockquote p {
+        font-size: 35px; 
+        font-style: italic;
+        font-family:'Neucha' ;
+        font-weight: bolder;
+    }
+    
+    footer .blockquote-footer { 
+        margin-left: 17%;
+        font-size: 35px;
+        font-family:'Neucha' ;
+        color: #be9c52; 
+        
+    }
 
-.middle-content {
-    background-image: url(./resources/wepik-export-2023092920485710DE.jpeg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 80%;
-    padding: 8rem;
-    margin-left: 20rem;
-    overflow: hidden;
+/*morocco recipes page*/
+.cookbook-recipes {
     display: flex;
-    gap: 8rem
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
 }
 
-.title {
-    margin-top: 5%;
-    margin-left: 10%;
-    margin-bottom: 5%;
-
+.cookbook-recipes h1 {
+    display: inline-block;
+    white-space: pre;
+    font-size: 25px;
+    color: #044622;
+    font-weight: bold;
+    line-height: 1.5; 
+    letter-spacing: 0.1em; 
+    font-family: 'Arial', sans-serif; 
+    padding-right: 5%;
 }
 
-.moroccan-recipes {
-    width: 40%;
-    text-align: center;
-    border: 1px solid black;
-    border-radius: 20%;
-    padding: 2rem;
-    background-color: #f0e1c4;
-    margin-top: 2rem;
-}
-
-.albanian-recipes {
-    width: 40%;
-    margin-top: 2rem;
-    text-align: center;
-    border: 1px solid black;
-    border-radius: 20%;
-    padding: 2rem;
-    background-color: #f0e1c4;
-}
-
-
-.middle-content div img {
-    width: 40%
-}
 
 #slider {
-    width: 80%;
-    margin: auto;
+    width: 70%;
     background-color: white;
-    margin-top: 10%;
+    display: flex;
+    margin-top: 5%;
+    padding: 5rem;
+    margin-left: 15%;
+    font-family: 'Neucha';
+    font-size: larger;
+    border-radius: 1%;
+    background-color: #f4f1e2;
+   
     
 }
 
-.cookbook-recipes {
-    background-image: url(./resources/olive-oil-bottles-with-copy-space.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;   
-
-}
-
-.recipes h1 {
-    text-align: center;
-}
-
-
 .ingredients {
-    width: 20%;
+    width: 40%;
+    line-height: 2;
 }
 
 .recipes {
-    width :70%;
+    width :90%;
+    margin-left: 15%;
 }
 
 .foodCart {
     display: flex;
+    justify-content: center;
+  
 }
 
 .foodImage {
-    width: 20%;
-    margin: auto;
+    width: 40%;
+    
 }
+ 
+.recipe-title {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 4rem;
+}
+
+.recipe-title h3 {
+    margin-top: 5rem;
+    font-size: 3rem;
+}
+
+.carousel-control-prev-icon {
+    background-image: url(./resources/reshot-icon-left-arrow-button-RF5DMQX396-95d98.svg) !important;
+    margin-left: 50% ;
+
+    }
+   
+.carousel-control-next-icon {
+ background-image: url(./resources/reshot-icon-right-arrow-button-YAB8GEM7SD-c5f61.svg) !important;
+ margin-right: 50%;
+ }
+ 

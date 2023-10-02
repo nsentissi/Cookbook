@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Neucha&display=swap" rel="stylesheet">
+    <title>Cookbook</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark ">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">A taste of tradition</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item dropdown" >
+                    <button class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                      Choose
+                    </button>
+                    <ul class="dropdown-menu ">
+                      <li><a class="dropdown-item" href="#">Moroccan</a></li>
+                      <li><a class="dropdown-item" href="#">Albanian</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main class="cookbook-recipes">
+  
+      <div id="carouselExampleIndicators" class="carousel slide">
+          <div class="carousel-indicators ">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div id="slider" class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="recipe-title">
+              <h3>Chicken Pastilla</h3>
+              <img class="foodImage" src="./resources/m1.webp" alt="pastilla">
+              </div>
+              <div class="foodCart">
+              <div class="ingredients">
+                  <h4>Ingredients</h4>
+                  <ul>
+                      <li>1 tbsp olive oil</li>
+                      <li>6 boneless chicken thighs (about 750g)</li>
+                      <li>10g butter</li>
+                      <li>2 onions, finely chopped</li>
+                      <li>2 garlic cloves, finely chopped</li>
+                      <li>1 tsp ground ginger</li>
+                      <li>½ tsp cinnamon</li>
+                      <li>½ tsp turmeric</li>
+                      <li>pinch of saffron</li>
+                      <li>500ml chicken stock</li>
+                      <li>4 eggs, beaten</li>
+                      <li>75g ground almonds or pistachios</li>
+                      <li>75g dried dates, finely chopped</li>
+                      <li>1 tbsp orange blossom water</li>
+                      <li>1 tsp orange zest</li>
+                      <li>4 tbsp finely chopped parsley</li>
+                      <li>sea salt and freshly ground black pepper</li>
+                  </ul>
+              </div>
+              <div class="recipes">
+                  <h4>Recipes</h4>
+                  <ol>
+                     <li>Heat the oil in a large frying pan. Add the chicken and fry it skin-side down, until crisped up and brown. Turn the thighs over and cook for a couple more minutes, then remove them from the pan. Add the butter to the pan and when it has melted, add the onions and fry them gently until soft. Add the garlic and spices and fry for a couple more minutes.</li>
+                     <li>Put the chicken back in the pan and pour in the stock or 500ml of water. Season, then cover the pan and simmer for about half an hour or until the chicken is tender. Remove the chicken and set it aside. When it is cool enough to handle, finely chop the meat – it’s up to you whether you keep the skin or not. Put the liquid back over the heat and reduce it by half.</li>
+                     <li>Add the eggs to the cooking liquid and continue to cook over a low heat until you have a mixture that resembles loose scrambled eggs. Add the ground nuts and stir, then add the dates, orange blossom water, zest and finally, the chicken. Remove the pan from the heat and allow to cool.</li>
+                     <li>Preheat the oven to 180°C/Fan 160°C/Gas 4. To assemble the pie, you need a large ovenproof dish about 28cm in diameter</li>
+                     <li>Take a sheet of filo pastry and brush it with melted butter. Drape it over the dish, making sure it is gently pushed into the corners without any tearing. Repeat with another sheet of filo, this time placing it at a right angle to the first. Repeat with a further 2 sheets of filo, this time placing them on the diagonal.</li>
+                     <li>Spread the filling over the pastry. Fold over the overhanging pieces of filo in reverse order – they should just about cover the filling. Take the remaining 2 pieces of filo and cut them to fit the dish. Brush them with butter, then cover the pie, tucking under any corners. Bake the pie in the oven for about 30 minutes until the pastry is a crisp, golden brown. Remove from the oven and allow to cool a little before dusting it with the icing sugar and cinnamon.</li> 
+                  </ol>
+              </div>
+              </div>
+              <button id="shareButton">Share</button>
+            </div>
+            <div class="carousel-item">
+              <img src="..." class="d-block w-100" alt="...">
+              <p>hello Im nawfal</p>
+            </div>
+            <div class="carousel-item">
+              <img src="..." class="d-block w-100" alt="...">
+            </div>
+            
+          </div>
+          <button class="carousel-control-prev custom-carousel-control" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+          
+        </div>
+    </main>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
