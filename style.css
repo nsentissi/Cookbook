@@ -9,6 +9,7 @@ body{
     background-size:cover; 
     background-repeat: no-repeat;
     background-position: center;
+    background-attachment: fixed;
     background-attachment: fixed; 
 }
 .navbar {
@@ -162,6 +163,7 @@ body{
     border: 0.2px solid black;
     padding: 1rem;
     background-color: #ffdfd0;
+
 }
 
 .ingredients h4 {
@@ -170,6 +172,7 @@ body{
     padding: 1rem;
     color: #ffdfd0
 }
+
 .recipes {
     width :90%;
     margin-left: 10%;
@@ -177,7 +180,9 @@ body{
     border: 0.2px solid black;
     padding: 1rem;
     background-color: #ffdfd0;
+    
 }
+
 .recipes h4 {
     margin-top: -1.1rem;
     background-color: #804c60;
@@ -192,16 +197,20 @@ body{
 }
 
 .foodImage {
-    width: 40%;
-    height: 40%;
-    border-radius: 50%;
-}
- 
+        width: 40%;
+        height: 40%;
+        border-radius: 50%;
+        
+        
+    }
 
+
+ 
 .recipe-title {
     display: flex;
     justify-content: space-around;
     margin-bottom: 4rem;
+    
 }
 
 .recipe-title h3 {
@@ -236,6 +245,26 @@ body{
  background-image: url(./resources/reshot-icon-right-arrow-button-YAB8GEM7SD-c5f61.svg) !important;
  margin-right: 50%;
  }
+ 
+ .shareButton {
+    margin-top: 3rem;
+    padding: 0.5rem;
+    background-color:#da7033ce ;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #630716;
+    width: 15%;
+
+ }
+
+
+ .shareButton:hover {
+    background-color: #ffdfd0 ;
+    color: #301f07;
+
+ } 
+
  .carousel-indicators {
     background-color: #804c60 ;
  }
+
