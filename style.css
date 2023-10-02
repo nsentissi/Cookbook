@@ -8,11 +8,12 @@ body{
     background-image: url(resources/19Z_2103.w015.n001.354B.p15.354.jpg);
     background-size:cover; 
     background-repeat: no-repeat;
-    background-position: center; 
+    background-position: center;
+    background-attachment: fixed; 
 }
 .navbar {
     background-color: rgba(0, 0, 0, 0.534);
-    padding: 10%;    
+    padding: 10%;   
 }
 
 .navbar-expand-lg .navbar-brand {
@@ -20,7 +21,7 @@ body{
     font-size: 45px;
     font-weight: bolder;
     padding: 1%;
-    color: #242b02;
+    color: #6d1322;
     background-color: #a14e21cc;
     border-radius: 15%;
 }
@@ -119,7 +120,8 @@ body{
         
     }
 
-/*morocco recipes page*/
+/*albanian recipes page*/
+
 .cookbook-recipes {
     display: flex;
     flex-direction: row;
@@ -151,19 +153,37 @@ body{
     font-family: 'Neucha';
     font-size: larger;
     border-radius: 1%;
-    background-color: #f4f1e2;
-   
-    
+    background-color: #f4f1e2;  
 }
 
 .ingredients {
     width: 40%;
     line-height: 2;
+    text-align: center;
+    border: 0.2px solid black;
+    padding: 1rem;
+    background-color: #ffdfd0;
 }
 
+.ingredients h4 {
+    margin-top: -1.1rem;
+    background-color: #804c60 ;
+    padding: 1rem;
+    color: #ffdfd0
+}
 .recipes {
     width :90%;
-    margin-left: 15%;
+    margin-left: 10%;
+    text-align: center;
+    border: 0.2px solid black;
+    padding: 1rem;
+    background-color: #ffdfd0;
+}
+.recipes h4 {
+    margin-top: -1.1rem;
+    background-color: #804c60;
+    padding: 1rem;
+    color: #ffdfd0
 }
 
 .foodCart {
@@ -174,9 +194,11 @@ body{
 
 .foodImage {
     width: 40%;
-    
+    height: 40%;
+    border-radius: 50%;
 }
  
+
 .recipe-title {
     display: flex;
     justify-content: space-around;
@@ -185,9 +207,26 @@ body{
 
 .recipe-title h3 {
     margin-top: 5rem;
-    font-size: 3rem;
+    font-size: 4rem;
+    color: #da7133;
 }
 
+.shareButton {
+    margin-top: 3rem;
+    padding: 0.5rem;
+    background-color:#da7033ce ;
+    font-weight: bold;
+    font-size: 2rem;
+    color: #630716;
+    width: 15%;
+
+ }
+
+ .shareButton:hover {
+    background-color: #ffdfd0 ;
+    color: #301f07;
+    
+ }
 .carousel-control-prev-icon {
     background-image: url(./resources/reshot-icon-left-arrow-button-RF5DMQX396-95d98.svg) !important;
     margin-left: 50% ;
@@ -198,4 +237,6 @@ body{
  background-image: url(./resources/reshot-icon-right-arrow-button-YAB8GEM7SD-c5f61.svg) !important;
  margin-right: 50%;
  }
- 
+ .carousel-indicators {
+    background-color: #804c60 ;
+ }
