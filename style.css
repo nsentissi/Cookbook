@@ -8,12 +8,13 @@ body{
     background-image: url(resources/19Z_2103.w015.n001.354B.p15.354.jpg);
     background-size:cover; 
     background-repeat: no-repeat;
-    background-position: center; 
+    background-position: center;
     background-attachment: fixed;
+    background-attachment: fixed; 
 }
 .navbar {
     background-color: rgba(0, 0, 0, 0.534);
-    padding: 10%;    
+    padding: 10%;   
 }
 
 .navbar-expand-lg .navbar-brand {
@@ -21,7 +22,7 @@ body{
     font-size: 45px;
     font-weight: bolder;
     padding: 1%;
-    color: #242b02;
+    color: #6d1322;
     background-color: #a14e21cc;
     border-radius: 15%;
 }
@@ -120,7 +121,8 @@ body{
         
     }
 
-/*morocco recipes page*/
+/*albanian recipes page*/
+
 .cookbook-recipes {
     display: flex;
     flex-direction: row;
@@ -152,9 +154,7 @@ body{
     font-family: 'Neucha';
     font-size: larger;
     border-radius: 1%;
-    background-color: #f4f1e2;
-   
-    
+    background-color: #f4f1e2;  
 }
 
 .ingredients {
@@ -216,7 +216,7 @@ body{
 
 .recipe-title h3 {
     margin-top: 5rem;
-    font-size: 3rem;
+    font-size: 4rem;
     color: #da7133;
 }
 
@@ -230,20 +230,26 @@ body{
  background-image: url(./resources/reshot-icon-right-arrow-button-YAB8GEM7SD-c5f61.svg) !important;
  margin-right: 50%;
  }
-
+ 
  .shareButton {
     margin-top: 3rem;
     padding: 0.5rem;
-    background-color: #da7133 ;
-    color: #ffdfd0;
+    background-color:#da7033ce ;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #630716;
+    width: 15%;
+
  }
+
 
  .shareButton:hover {
     background-color: #ffdfd0 ;
-    color: #da7133;
- }
+    color: #301f07;
+
+ } 
 
  .carousel-indicators {
     background-color: #804c60 ;
  }
- 
+
