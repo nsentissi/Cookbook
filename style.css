@@ -22,7 +22,7 @@ body{
     font-size: 45px;
     font-weight: bolder;
     padding: 1%;
-    color: #6d1322;
+    color: #3d020c;
     background-color: #a14e21cc;
     border-radius: 15%;
 }
@@ -33,6 +33,7 @@ body{
     font-weight: bold;
     font-family: 'Neucha';
     border-radius: 20%;
+    color:#3d020c ;
     background-color: #a14e21cc;
     
     
@@ -96,14 +97,14 @@ body{
 .underTitle h3{
     font-family:'Neucha' ;
     font-weight: bold;
-    color: #fcfbf8;
-    padding: 5%;
+    color: #fcfcfc;
+    padding: 6%;
     width: 60ch;
     text-align: center;
 }
 
   footer .card {
-    background: linear-gradient(to right, #74351d,#8c672c, #74351d);
+    background: linear-gradient(to right, #74351d,#8c672c,#8c672c, #74351d);
 }
 
 .card-body {
@@ -121,7 +122,7 @@ body{
     }
     
     footer .blockquote-footer { 
-        margin-left: 17%;
+        margin-left: 28%;
         font-size: 35px;
         font-family:'Neucha' ;
         color: #be9c52; 
