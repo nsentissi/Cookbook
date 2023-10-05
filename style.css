@@ -90,6 +90,7 @@ body{
     width: 40%;
 }
 
+
 .homepage img:hover{
     transform: scale(1.2);
     filter: drop-shadow(3px 3px 3px #c24949);
@@ -176,6 +177,7 @@ footer .blockquote-footer {
     width: 20%;
     margin-left: 40%;
     color: #8a0339;
+    border-radius: 50%;
 }
 .ingredients {
     width: 40%;
